@@ -1,0 +1,89 @@
+@font-face {
+    font-family: welcome_font;
+    src: url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+}
+
+html { 
+  background: url(bf.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body {
+  background: transparent;
+	font-family: Helvetica, FreeSans, 'Liberation Sans', Helmet, Arial, sans-serif;
+}
+
+.main-container
+{
+	background: transparent;
+	height: 100%;
+	position: relative;
+}
+
+.inner {
+	padding: 0px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.75);
+	margin: auto;  
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 60px;
+	height: 20%;
+} 
+
+h1.main
+{
+color: white;
+font-weight: normal;
+font-size: 4em;
+padding: 0;
+text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-nav > li > a{
+    display: inline;
+		font-family: Helvetica, FreeSans, 'Liberation Sans', Helmet, Arial, sans-serif;
+		font-size: 12px;
+		font-stretch: normal;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: bold;
+		height: auto;
+		line-height: 14px;
+		}
+
+
+.navbar {
+margin-bottom: 0px;
+
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li {
+  color: #777;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #9D9D9D;
+}
+
+.navbar-nav > li {
+      float: none;
+      display: inline-block;
+    }
